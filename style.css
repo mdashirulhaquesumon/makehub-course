@@ -15,30 +15,49 @@ body{
 	background: #f3f4f7;
 	padding: 4rem 0;
 }
-.section-title h2 {
-	color: #ff9933;
-	font-size: 50px;
-	font-weight: 700;
-    text-transform: uppercase;
-	margin-bottom: 1rem;
-}
+
 
 .subtitle {
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 700;
 	text-transform: capitalize;
 	text-align: center;
 	background: #0099cc;
 	color: white;
 	padding: 6px;
 }
+.step-box h4 {
+	font-size: 24px;
+	font-weight: 500;
+}
+.box-wraper .step-box {
+	flex: 1;
+}
 .box-wraper {
 	display: flex;
+    padding: 20px 0;
 }
 .box-wraper .step-box{
     flex: 1;
 }
+.step-box ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 10px;
+}
 .step-box ul li {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.step-box ul li a {
+	font-size: 14px;
+	font-weight: 300;
+	text-decoration: none;
+	background: #fbb034;
+	color: white;
+	padding: 2px 12px;
 	display: inline-block;
-	padding: 8px;
+	border-radius: 5px;
 }
